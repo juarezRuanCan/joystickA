@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: consola;
+}
+#area{
+    margin-top: 100vh;
+    position: absolute;
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    background: #ABE9BA;
+}
+#joystick{
+    transition: 70ms;
+    position: absolute;
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background: #8BD2FB;
+    left: 0px;
+    pointer-events: none;
+}
